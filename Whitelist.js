@@ -110,4 +110,4 @@ if (content === "redeem") { // Command they use to whitelist
 }
 })
 console.log("ready!")
-client.login("DISCORD BOT TOKEN")
+client.login("ODc3ODgxOTA5MzcwMzA2NTkw.YR5FPQ.l0y8XscQDzZGbISZSsyIhYdP_eg")
