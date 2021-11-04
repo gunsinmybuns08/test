@@ -19,7 +19,7 @@ function library:CreateMenu(GUIname)
 	local UIPaddingTabHolder = Instance.new("UIPadding")
 	local TabContainers = Instance.new("Folder")
 
-	GUI.Name = GUIname
+	GUI.Name = "GUI"
 	GUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	GUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
