@@ -20,7 +20,7 @@ function library:CreateForm(name)
 	UICornerGUI.CornerRadius = 8
 
 	TabHolder.Name = "TabHolder"
-	TabHolder.Parent = game.StarterGui.ScreenGui.Container
+	TabHolder.Parent = game.StarterGui.ScreenGui[name]
 	TabHolder.BackgroundColor3 = Color3.fromRGB(15, 13, 18)
 	TabHolder.BorderSizePixel = 0
 	TabHolder.Position = UDim2.new(0.0263157897, 0, 0.0286396183, 0)
