@@ -131,3 +131,4 @@ function library:CreatTheNiggerMenu(SizeX, SizeY) -- Vector2
 	end
 end
 
+return library
