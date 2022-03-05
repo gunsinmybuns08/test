@@ -13,7 +13,7 @@ function Events:GrenadeKill(_function)
 end
 
 function Events:TotalKills()
-    return game.Players.LocalPlayer.Additionals.OverallKills
+    return game.Players.LocalPlayer.Additionals.OverallKills.Value
 end
 
 return Events
